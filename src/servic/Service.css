@@ -1,0 +1,71 @@
+
+
+
+
+.s-wrapper{
+position: relative;
+padding-top: 5%;
+}
+
+.s-container{
+ 
+    gap: 2rem;
+}
+
+
+
+.s-ses{
+line-height: 3rem;
+font-weight: bold;
+color: var(--dark-blue-black);
+font-size: 2.5rem;
+position: relative;
+
+}
+.s-ses::after{
+
+content: "";
+height: 1.5px;
+width: 50%;
+background-color: var(--blue);
+position: absolute;
+bottom: -20%;
+left: 26%;
+}
+ @media (max-width: 760px) {
+.s-container{
+    width: 100%;
+}
+
+    .s-ses{
+line-height: 2rem;
+font-weight: 500;
+font-size: 1.5rem;
+}
+.secondaryText{
+font-size: 0.6rem;
+display: flex;
+align-items: flex-start;
+}
+
+
+.s-ses::after{
+
+bottom: -25;
+
+
+
+}
+ }
+   
+
+
+
+
+
+
+
+
+
+
+

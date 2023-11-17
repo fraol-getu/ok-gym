@@ -1,0 +1,87 @@
+
+
+c-wrapper{
+    position: relative;
+}
+
+.c-container{
+
+gap: 3rem;
+padding-block: 2rem;
+}
+.c-head{
+    padding: 2rem;
+     gap: 2rem;
+}
+.c-title{
+position: relative;
+
+}
+.c-title::after{
+content: "";
+height: 2px;
+width: 50%;
+background-color: var(--blue);
+left: 26%;
+bottom: -25%;
+position: absolute;
+}
+
+.c-middle{
+display: flex;
+}
+.c-center{
+    padding: 1rem;
+}
+
+
+
+.c-img{
+    width: 100%;
+
+}
+
+.c-2{
+
+gap: 5.5rem;
+display: flex;
+}
+
+@media (max-width: 940px) {
+
+.c-middle{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

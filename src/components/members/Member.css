@@ -1,0 +1,69 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.m-container{
+
+    position: relative;
+ display: flex;
+padding-block: 2rem 2rem;
+}
+
+
+
+.m-center{
+    
+    gap: 0.6rem;
+
+
+ }
+
+.m-card{
+display: flex;
+gap: 2rem;
+}
+
+.i-container{
+height: 8rem;
+width: 50%;
+border: 2px solid var(--black);
+text-align: center;
+}
+.m-img{
+    width:50%;
+   
+    color: blue;
+}
+
+@media (max-width: 1024px) {
+
+
+.m-container{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+
+       width: 95%;
+        margin-inline: auto;
+    }
+
+  
+
+.m-card{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+}

@@ -1,0 +1,65 @@
+.c-wrapper{
+    position: relative;
+background-color: var(--secondary);
+
+}
+
+
+.c-m{
+
+gap: 9rem;
+padding-block: 1rem;
+}
+
+    
+
+    .input{
+width: 170%;
+height: 2rem;
+}
+.c-input{
+    width: 350%;
+height: 10rem;
+}
+
+.p1-text{
+    color: rgb(140 139 139);
+  font-size: 0.9rem;
+padding-right: 120%;
+padding-bottom: 5%;
+}
+.p2-text{
+    color: rgb(140 139 139);
+  font-size: 0.9rem;
+padding-right: 250%;
+padding-bottom: 2%;
+}
+
+
+@media (max-width: 940px) {
+
+.c-m{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.input{
+  width: 150%;
+}
+.c-input{
+
+  width: 150%;
+}
+.p2-text{
+padding-right: 100%;
+
+
+}
+}
+
+
+
+

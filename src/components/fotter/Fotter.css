@@ -1,0 +1,57 @@
+.fl-wrapper{
+    position: relative;
+background-color: var(--dark-blueblack);
+
+}
+.fl-container{
+  display: flex;
+   gap: 5rem;
+ padding-top: 5rem;
+
+}
+.fl-container::before{
+content: "";
+height: 1px;
+width: 80%;
+background-color: var(--secondary);
+left: 10%;
+bottom: 3.4rem;
+
+position: absolute;
+}
+.f1-f{
+gap: 1rem;
+flex: 1;
+height: 50%;
+}
+
+
+@media (max-width:940px) {
+
+.fl-container{
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* .logo{
+
+  display: flex;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+} */
+
+
+
+
+
+
+
+
+}
